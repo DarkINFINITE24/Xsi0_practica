@@ -19,12 +19,14 @@ namespace TicTacToe
 
         public static int LeftMargin = Convert.ToInt32(Properties.Resources.LeftMargin);
         public static int TopMargin = Convert.ToInt32(Properties.Resources.TopMargin);
-        public static int CellSize = 100;
-        public static string FreeCellText = ".";
-        public static int CellGap = 4;
+        public static int CellSize = Convert.ToInt32(Properties.Resources.CellSize);
+        public static string FreeCellText = Properties.Resources.FreeCellText;
+        public static int CellGap = Convert.ToInt32(Properties.Resources.CellGap);
         public static Color CellColor = Color.LightBlue;
 
-        public static string FirstPlayerText = "X";
-        public static string SecondPlayerText = "0";
+        public static string FileName = Properties.Resources.FileName;
+
+        public static string FirstPlayerText = Properties.Resources.FirstPlayerText;
+        public static string SecondPlayerText = Properties.Resources.SecondPlayerText;
     }
 }

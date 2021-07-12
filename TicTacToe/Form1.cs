@@ -23,7 +23,7 @@ namespace TicTacToe
         {
             game = new TicTacToeGame();
             game.Start(player1TextBox.Text, player2TextBox.Text);
-            game.LoadResults("results.json"); // TODO - move file name in resource file
+            game.LoadResults(Ct.FileName); 
             resultsDataGridView.DataSource = null;
             resultsDataGridView.DataSource = game.gameResults;
             InitBoard(gamePanel);
@@ -182,7 +182,7 @@ namespace TicTacToe
 
         private void mainForm_FormClosed(object sender, FormClosedEventArgs e)
         {
-            game.SaveResults("results.json");
+            game.SaveResults(Ct.FileName);
         }
 
         private void resetHistoryButton_Click(object sender, EventArgs e)

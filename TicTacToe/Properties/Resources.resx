@@ -117,8 +117,26 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="CellGap" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="CellSize" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>results.json</value>
+  </data>
+  <data name="FirstPlayerText" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="FreeCellText" xml:space="preserve">
+    <value>.</value>
+  </data>
   <data name="LeftMargin" xml:space="preserve">
     <value>20</value>
+  </data>
+  <data name="SecondPlayerText" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="TopMargin" xml:space="preserve">
     <value>20</value>

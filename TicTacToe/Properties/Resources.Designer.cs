@@ -61,11 +61,65 @@ namespace TicTacToe.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 4.
+        /// </summary>
+        internal static string CellGap {
+            get {
+                return ResourceManager.GetString("CellGap", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 100.
+        /// </summary>
+        internal static string CellSize {
+            get {
+                return ResourceManager.GetString("CellSize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to results.json.
+        /// </summary>
+        internal static string FileName {
+            get {
+                return ResourceManager.GetString("FileName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to X.
+        /// </summary>
+        internal static string FirstPlayerText {
+            get {
+                return ResourceManager.GetString("FirstPlayerText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ..
+        /// </summary>
+        internal static string FreeCellText {
+            get {
+                return ResourceManager.GetString("FreeCellText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 20.
         /// </summary>
         internal static string LeftMargin {
             get {
                 return ResourceManager.GetString("LeftMargin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 0.
+        /// </summary>
+        internal static string SecondPlayerText {
+            get {
+                return ResourceManager.GetString("SecondPlayerText", resourceCulture);
             }
         }
         

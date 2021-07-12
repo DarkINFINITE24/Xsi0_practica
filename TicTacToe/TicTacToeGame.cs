@@ -159,8 +159,8 @@ namespace TicTacToe
         internal void ResetGameResults()
         {
             gameResults.Clear();
-            SaveResults("results.json");
-            LoadResults("results.json");
+            SaveResults(Ct.FileName);
+            LoadResults(Ct.FileName);
         }
     }
 }
