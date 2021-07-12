@@ -184,5 +184,13 @@ namespace TicTacToe
         {
             game.SaveResults("results.json");
         }
+
+        private void resetHistoryButton_Click(object sender, EventArgs e)
+        {
+            game.ResetGameResults();
+            resultsDataGridView.DataSource = null;
+            resultsDataGridView.DataSource = game.gameResults;
+
+        }
     }
 }
